@@ -1,5 +1,7 @@
 # Exam 3 study guide - Fall 2022
 
+[Download copy of this as a Word doc](https://github.com/AdamSpannbauer/stat201-exam3-study-guide/raw/master/stat201_exam_3_study_guide.docx)
+
 ## Question break down (40 Questions total)
 
 * 13 CI questions (Ch 13 & 14) (1 of them interpretation)
