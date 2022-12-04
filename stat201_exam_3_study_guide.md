@@ -14,10 +14,15 @@
 
 * Margin of Error
   * Formulas
-    * Proportion: $z*SE(\hat{p})$
+    * Proportion: 
+      * Margin of Error: $z*SE(\hat{p})$
       * $SE(\hat{p}) = \sqrt{\frac{\hat{p}\hat{q}}{n}}$
-    * Mean: $t_{n-1}*SE(\bar{y})$
-      * $SE(\bar{y}) = \frac{s}{\sqrt{n}}$
+    * Mean:
+      * Margin of Error: $t_{df}*SE(\bar{y})$
+      * Standard Error of sample mean: $SE(\bar{y}) = \frac{s}{\sqrt{n}}$
+      * "Degrees of Freedom": $df = n - 1$
+        * at low values of $df$ the $t$ distribution has "fatter tails"
+        * at high values of $df$ the $t$ distribution looks like the normal distribution
   * What factors affect the size of ME?
     * How does sample size affect ME? Larger sample size leads to (larger/smaller) ME?
     * How does the confidence and *critical value* affect ME? Larger confidence leads to (larger/smaller) ME? Larger critical value leads to (larger/smaller) ME?
